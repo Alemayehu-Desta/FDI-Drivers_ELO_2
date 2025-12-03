@@ -1,4 +1,4 @@
-# Data Preparation 
+## Data Preparation 
 
 This folder contains the Python scripts and notebooks used to clean, standardize, and prepare all datasets for the Foreign Direct Investment (FDI) analysis project.
 
@@ -6,8 +6,8 @@ This folder contains the Python scripts and notebooks used to clean, standardize
 
 ## Reproducibility Principles
 
-- **Raw datasets in - [../0_datasets/](../0_datasets/) are never modified.**
-- **All cleaned outputs are written as new files.**
+- **Raw datasets in - [../1_datasets/](../1_datasets/) are never modified.**
+- **All cleaned outputs are written as new files in this folder.**
 - **Anyone cloning this repository can re-run the scripts and reproduce the final analytical datasets.**
 
 ---
@@ -108,12 +108,12 @@ Two merged datasets are created for different analytical needs.
 
 ---
 
-## 4️4. Summary of Outputs
+## 4️. Summary of Outputs
 
 | File | Description |
 |------|-------------|
-| `panel_innerjoin_strict.csv` | Balanced panel, complete data, regression-ready |
-| `panel_leftjoin_code_only.csv` | Unbalanced panel, maximum coverage, exploratory analysis |
+| [`panel_innerjoin_strict.csv`](./cleaned/panel_innerjoin_strict.csv) | Balanced panel, complete data, regression-ready |
+| [`panel_leftjoin_code_only.csv`](./cleaned/panel_leftjoin_code_only.csv) | Unbalanced panel, maximum coverage, exploratory analysis |
 | Long-format intermediate tables | Generated in memory, not saved individually |
 
 ---
