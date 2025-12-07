@@ -25,6 +25,23 @@ Using **panel econometrics**, **machine learning**, and **policy-oriented visual
 The structure follows the **MIT Emerging Talent – Collaborative Data Science Project (CDSP)** methodology.
 
 ---
+---
+
+<details>
+<summary><h2>Table of Contents (Click to Expand)</h2></summary>
+
+- [Research Question](#-research-question)
+- [Project Milestones](#-project-milestones)
+- [Analysis Summary](#-analysis-summary)
+- [Machine Learning – Random Forest](#-machine-learning--random-forest)
+- [Key Findings](#-key-findings)
+- [Limitations](#-limitations)
+- [Future Work](#-future-work)
+- [Tech Stack](#-tech-stack)
+
+</details>
+
+---
 
 ## **Directory Structure**
 
@@ -201,6 +218,7 @@ Investors may “price in” corruption if infrastructure is strong.
   <img src="https://img.shields.io/badge/Visualization-Plotly%20%7C%20Tableau-green" />
   <img src="https://img.shields.io/badge/Notebook-Jupyter-lightgrey" />
 </p>
+
 
 
 
